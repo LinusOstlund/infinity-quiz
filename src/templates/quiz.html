@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Infinity Quiz</h1>
+    <h2>{{ question }}</h2>
+    <form method="POST">
+        {% for option in options %}
+        <button class="custom-button" type="submit" name="option" value="{{ option }}">{{ option }}</button>
+        {% endfor %}
+    </form>
+</body>
+</html>

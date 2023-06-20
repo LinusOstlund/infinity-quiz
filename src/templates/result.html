@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="content-container">
+        <h2>{{ response }}</h2>
+        <p>{{ rationale }}</p>
+        <br><br>
+        <form action="/" method="get">
+            <button type="submit" class="new-question-button">Generate new question!</button>
+        </form>
+    </div>
+</body>
+</html>

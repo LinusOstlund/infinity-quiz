@@ -1,0 +1,85 @@
+body {
+    background-color: #f8f8ff;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 48px;
+  font-family: monospace;
+  font-style: normal;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: rgba(255, 0, 0, 0.577);
+  color: rgb(255, 171, 251);
+  text-shadow:
+    3px 3px 0 #85acc9,
+    -1px -1px 0 #85acc9,
+    1px -1px 0 #85acc9,
+    -1px 1px 0 #85acc9,
+     1px 1px 0 #85acc9;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 100px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.custom-button {
+    background-color: #a6a0ff;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 20%;  /* Change the width and height as per your requirements */
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.custom-button:hover {
+    background-color: #7369fe8d; 
+    color: #ba1b1b;
+}
+
+.new-question-button {
+    background-color: #fe69f9;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.new-question-button:hover {
+    background-color: #fe69f95d; 
+    color: #008CBA;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* This creates 2 equally sized columns */
+    gap: 10px; /* This creates some space between the buttons */
+}
+
+.content-container {
+    width: 60%;
+    margin: auto;
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "Science": ["Physics", "Chemistry", "Biology", "Astronomy", "Geology", "Environmental Science"],
+    "Geography": ["World Capitals", "Landmarks", "Physical Geography", "Flags of the World", "Countries and Cultures"],
+    "History": ["Ancient Civilizations", "Medieval History", "Modern History", "War History", "Historical Figures"],
+    "Literature": ["Classic Literature", "Modern Literature", "Poets and Authors", "Book Characters", "Famous Quotations"],
+    "Arts & Entertainment": ["Movies", "Television Shows", "Music", "Visual Arts", "Theater"],
+    "Sports": ["Football (Soccer)", "American Football", "Baseball", "Basketball", "Olympics", "Extreme Sports"],
+    "Technology": ["Computers and Internet", "Gadgets and Devices", "AI and Robotics", "Space Technology", "Video Games"],
+    "General Knowledge": ["Current Affairs", "Popular Culture", "Food and Drink", "Etiquette and Manners", "World Records"]
+  }
+]

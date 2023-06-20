@@ -1,0 +1,32 @@
+[
+  {
+    "Question": "Which city is the capital of Australia?",
+    "Options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "Answer": "Canberra"
+  },
+  {
+    "Question": "Who wrote the novel 'To Kill a Mockingbird'?",
+    "Options": ["Harper Lee", "J.D. Salinger", "George Orwell", "Ernest Hemingway"],
+    "Answer": "Harper Lee"
+  },
+  {
+    "Question": "What is the chemical symbol for the element oxygen?",
+    "Options": ["O", "Ox", "Og", "Om"],
+    "Answer": "O"
+  },
+  {
+    "Question": "What planet is known as the 'Red Planet'?",
+    "Options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "Answer": "Mars"
+  },
+  {
+    "Question": "What animal is the national emblem of the United States of America?",
+    "Options": ["Bald Eagle", "Grizzly Bear", "Buffalo", "White-Tailed Deer"],
+    "Answer": "Bald Eagle"
+  },
+  {
+    "Question": "Which instrument did Wolfgang Amadeus Mozart primarily play?",
+    "Options": ["Violin", "Piano", "Clarinet", "Flute"],
+    "Answer": "Piano"
+  }
+]
